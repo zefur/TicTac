@@ -1,0 +1,22 @@
+.large {
+    width: 33%;
+    height: auto;
+    display: inline-block;
+}
+.small {
+    width: 33%;
+    height: auto;
+    display: inline-block;
+}
+#a{
+    background-color: aqua;
+}
+#b{
+    background-color: bisque;
+}
+#c{
+    background-color: blueviolet;
+}
+#d{
+    background-color: brown;
+}
