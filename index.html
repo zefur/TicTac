@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="game.css">
+    <script src="game.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,108 +14,21 @@
         <p>The simple game taken to new heights</p>
     </header>
     <main>
-        <div class="grid">
-        <div class="large" id="a">
-            <div class="small">hello</div>
-            <div class="small">1</div>
-            <div class="small">2</div>
-            <div class="small">3</div>
-            <div class="small">4</div>
-            <div class="small">5</div>
-            <div class="small">6</div>
-            <div class="small">7</div>
-            <div class="small">8</div>
-        </div>
-        <div class="large" id="b">
-            <div class="small">my
-            </div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
-        <div class="large" id="c">
-            <div class="small">name</div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
-        <div class="large" id="d">
-            <div class="small">is</div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
-        <div class="large" id="e">
-            <div class="small">james</div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
-        <div class="large" id="f">
-            <div class="small">what </div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
-        <div class="large" id="g">
-            <div class="small">is</div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
-        <div class="large" id="h">
-            <div class="small">your</div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
-        <div class="large" id="i">
-            <div class="small">name?</div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-            <div class="small"></div>
-        </div>
+        <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
         </div>    
+        <div class="winning-message" id="winning-message">
+<div data-winning-message-text></div>
+<button id="restart-button">Restart</button>
+        </div>
 </main>
     
 </body>
