@@ -99,15 +99,19 @@ body{
     background-color: rgba(0,0,0, .8);
     color: white;
     font-size: 5rem;
+    flex-direction: column;
 }
 .winning-message button{
-    display:none;
     font-size: 3rem;
     background-color: white;
     border: 1px solid black;
     padding: .25em .5em;
     cursor: pointer
 }
-.winning-message .show{
+.winning-message button:hover{
+    background-color: black;
+    color: white
+}
+.winning-message.show{
     display: flex;
 }
