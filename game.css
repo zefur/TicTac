@@ -34,6 +34,13 @@ body{
 .cell.circle{
     cursor:not-allowed;
 }
+.cell.x.color::before,
+.cell.x.color::after{
+    background-color: blue;
+}
+.cell.circle.color::before{
+    background-color: red;
+}
 .cell.x::before,
 .cell.x::after,
 .cell.circle::before {
@@ -114,4 +121,15 @@ body{
 }
 .winning-message.show{
     display: flex;
+}
+.welcome-message{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.welcome-buttons{
+   justify-content: center;
+   align-items: center;
 }
